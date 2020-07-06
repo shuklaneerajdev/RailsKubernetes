@@ -15,5 +15,8 @@ spec:
       containers:
       - name: rails-app
         image: shklnrj/railskube:latest
+        env:
+        - name: COUNTRY
+          value: India
         ports:
         - containerPort: 3000
