@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rails-app
-        image: shklnrj/railskube:latest
+        image: shklnrj/railskube:latestalt
         env:
         - name: COUNTRY
           value: India
